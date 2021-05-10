@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/misEstilos.css">
+</head>
+
+<body>
+    <!-- Sección del encabezado -->
+    <header>
+        <img src="Img/unad.jpg" alt="la unad" height="100" width="200">
+        <h1>Etiquetas Semanticas, Enlaces y Listas</h1>
+        <img src="Img/logo.jpg" alt="Imagen de logo" height="100" width="200">
+    </header>
+    <!-- Barra de menú horizontal -->
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Temas</a>
+                <ul class="dropdown">
+                    <li><a href="Tema 1.html">tema 1</a></li>
+                    <li><a href="Tema 2.html">tema 2</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Recursos</a>
+                <ul class="dropdown">
+                    <li><a href="recurso1.html">Audio1</a></li>
+                    <li><a href="recurso2.html">Audio2</a></li>
+                </ul>
+            </li>
+            <li> <a href="#">Aprendizaje</a>
+                <ul class="dropdown">
+                    <li><a href="cuestionario 1.html">prueba1</a></li>
+                    <li><a href="cuestionario 2.html">prueba2</a></li>
+                </ul>
+            </li>
+            <li><a href="autor.html">Autor</a></li>
+        </ul>
+    </nav>
+     <!-- Seccion central -->
+
+     <div class="contenedor">
+        <aside>
+            <h4>Fan page</h4>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+        <section>
+            <!-- aquí debo cambiar en cada página con los contenidos -->
+            <article>
+                <h3 class="centrado">Etiquetas</h3>
+                <p>
+                    Son aquellas que dan un significado a la parte del documento. Por decirlo de otra forma, 
+                   estamos ante etiquetas que indican que es un contenido que contiene, en lugar de como se 
+                  deben formatear al mostrar el documento HTML en un cliente web.
+                  En html5 se han incorporado muchas etiquetas que sirven para indicar que son y cual es el 
+                  significado de los elementos que contienen dentro.
+                  Estas son las etiquetas semánticas, que ganan mucha importancia en el marco del HTML y 
+                  de la composición de un documento web por ayudar a motores de búsqueda como Google, 
+                 a indexar mas correctamente los contenidos de un sitio.
+                </p>
+                <img width="300" height="300" src="Img/etiquetas.jpg" alt="las etiquetas">
+            
+               <h3 class="centrado">Enlaces </h3>
+                <p>
+                 en el HTML los enlaces se marcan con la etiqueta <a></a> y el atributo principal es 
+                 href=””
+                 Lo mas importante de los documentos de HTML son los enlaces. Ya que mediante los 
+                 enlaces HTML podemos comunicar una pagina con otra. De esta forma, enlazando 
+                 documentos HTML podemos acabar tejiendo lo que es internet
+                </p>
+                <img width="300" height="300" src="Img/enlaces.jpg" alt="los enlaces">
+                <h3 class="centrado">Listas </h3>
+                <p>
+                    Las listas en HTML nos permiten crear conjuntos de elementos en forma de listas dentro de 
+                    una página, todos los cuales irán precedidos, generalmente por un guion o número.
+                    Los tipos de listas en HTML son los siguientes:Listas ordenadas,Listas desordenadas, Listas de definicione
+                </p>
+                <img width="500" height="400" src="Img/listas.jpg" alt="las listas">
+
+        
+                <p>
+                    <h3>Listas Ordenadas</h3>
+                   Las listas en HTML ordenadas son aquellas que nos muestran los elementos en 
+                   ordenamiento. Para representar el orden tendremos los elementos numerados. Es decir, cada 
+                   una de los elementos ira precedido de un numero o letra que establezca su orden 
+                </p>
+                 
+                <p>
+                    <h3>Listas Desordenadas</h3>
+                 Las listas desordenadas en HTML nos sirven para mostrar los elementos sin ningún tipo de 
+                 orden, simplemente precedidos por la viñeta que puede hacer un punto, un cuadrado
+                </p>
+
+                 <p>
+                    <h3>Lista de Definiciones </h3>
+                    Su función es montar listas en las que tenemos la estructura valor y definición. Suele ser 
+                    listas para definir términos, como si fuese un diccionario, si bien puede ser cualquier par
+                    valor-definición
+                </p>
+
+                <p>
+                    Terán Anciano, J. (2016). Manual de Introducción al lenguaje HTML. Formación para el  Empleo. Editorial CEP, S.L. Recuperad de <br>
+                 https://elibro-net.bibliotecavirtual.unad.edu.co/es/ereader/unad/50964?page=134
+                </p>
+            </article>
+
+        </section>
+        
+    </div>
+    <!-- Pie de página -->
+    <footer>
+       <p> © Copyleft miOrganización.org | fecha de actualización:24/04/2021 <br>
+           Diseño, código HTML5 y programación hecho a mano por nosotros usando herramientas de Software Libre.
+           
+       </p>
+
+
+    </footer>
+</body>
+
+</html>
